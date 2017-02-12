@@ -1,0 +1,18 @@
+{% include header.html %}
+
+  {% include nav.html %}
+
+
+
+    <div id="content">
+
+    {% if page.title %}
+    <h1 class="posttitle">{{ page.title }}</h1>
+    {% endif %}
+
+    {{ content }}
+    
+    
+  </div>
+
+{% include footer.html %}
