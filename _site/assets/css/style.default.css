@@ -54,11 +54,11 @@ section {
   width: 100px;
   height: 3px;
   margin: 20px auto 20px;
-  background: #6b2a6b;
+  background: #444444;
 }
 h4.heading {
   margin-bottom: 20px;
-  color:#6b2a6b;
+  color:#444444;
 }
 h4.heading:after {
   margin: 10px auto 20px;
@@ -215,7 +215,7 @@ SERVICES
 .box-services {
   padding: 40px 20px 20px;
   border-bottom: 1px solid #d4d4d4;
-  background: #fdd443;
+  background: #00a5a8;
 }
 .box-services .icon {
   text-align: center;
@@ -943,7 +943,7 @@ label {
   color: #333333;
   background-color: #ffffff;
   background-image: none;
-  border: 1px solid #6b2a6b;
+  border: 1px solid #444444;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
