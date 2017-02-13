@@ -148,10 +148,10 @@ INTRO
   width: 40px;
   height: 40px;
   line-height: 40px;
-  border: solid 2px #FCCD00;
+  border: solid 2px #00a5a8;
   border-radius: 20px;
   z-index: 3;
-  color: #FCCD00;
+  color: #00a5a8;
 }
 .intro .content {
   position: relative;
