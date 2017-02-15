@@ -706,7 +706,7 @@ STYLE SWITCHER FOR DEMO
 }
 .navbar-default {
   background-color: #ffffff;
-  border-bottom-color: #6B2A6B;
+  border-bottom-color: #333333;
   padding: 10px 0px;
 }
 .navbar-default .navbar-brand {
@@ -725,13 +725,13 @@ STYLE SWITCHER FOR DEMO
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #6b2a6b;
+  color: #00a5a8;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #6b2a6b;
+  color:  #00a5a8;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -746,7 +746,7 @@ STYLE SWITCHER FOR DEMO
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #6b2a6b;
+  background-color: #00a5a8;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888888;
