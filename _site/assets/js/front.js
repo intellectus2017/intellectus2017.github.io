@@ -8,6 +8,51 @@ $(function () {
     utils();
     demo();
 
+    function onSubmitForm(event) {
+    event.preventDefault();
+    var form = this;
+    var btnEnviar = $(form).find('.btn-default');
+
+    btnEnviar.button('loading');
+    $.ajax({
+      url: '//formspree.io/iagovelasco@gmail.com',
+      method: 'POST',
+      dataType: 'json',
+      data: {
+        nome: $(form).find('input[name="name"]').val(),
+        email: $(form).find('input[name="email"]').val(),
+        mensagem: $(form).find('textarea[name="message"]').val()
+      },
+      success: function() {
+        $('#alert')
+          .removeClass('alert-danger')
+          .addClass('alert-success')
+          .text('Obrigado! Recebemos a sua mensagem!')
+          .show();
+
+           $(form).find('input[name="name"]').val(""),
+           $(form).find('input[name="email"]').val(""),
+           $(form).find('textarea[name="message"]').val("")
+      },
+      error: function() {
+        $('#alert')
+          .removeClass('alert-success')
+          .addClass('alert-danger')
+          .text('Ocorreu um erro ao enviar sua mensagem. Tente novamente mais tarde!')
+          .show();
+
+           $(form).find('input[name="name"]').val(""),
+           $(form).find('input[name="email"]').val(""),
+           $(form).find('textarea[name="message"]').val("")
+      },
+      complete: function() {
+        form.reset();
+      }
+    });
+  }
+
+
+
 });
 
 /* for demo purpose only - can be deleted */
@@ -38,10 +83,10 @@ function sticky() {
     $(".header").sticky();
 
 }
-
 /* =========================================
  *  map 
  *  =======================================*/
+
 
 
 /* =========================================

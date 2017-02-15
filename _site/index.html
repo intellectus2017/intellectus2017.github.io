@@ -339,7 +339,7 @@
             <h4 class="headingText">Entre em contato com a gente!</h4>    
             <div class="row">
               <div class="col-md-6" style="width:100%">
-                <form id="contact-form" method="post" action="contact.php" class="contact-form form">
+                <form id="contact-form">
                   <div class="controls">
                     <div class="row">
                       <div class="col-sm-6">
@@ -364,10 +364,14 @@
                       <textarea rows="4" name="message" id="message" placeholder="Digite sua menssagem" required="required" class="form-control"></textarea>
                     </div>
                     <div class="text-center">
-                      <input type="submit" value="Enviar Menssagem" class="btn btn-primary btn-block">
+                      <button id="btnEnviar" value="Enviar Menssagem" class="btn btn-primary btn-block">Enivar Mensagem</button>
                     </div>
+
+                
                   </div>
                 </form>
+
+
                 <p class="social">
                 <a href="https://www.facebook.com/Intellectus-Desenvolvimento-e-Marketing-1045808658819999/?fref=ts" title="" class="facebook"><i class="fa fa-facebook"></i></a>
                 <a href="https://twitter.com/intellectusAgen" title="" class="twitter"><i class="fa fa-twitter"></i></a></i></a>
@@ -392,11 +396,14 @@
     <!-- Javascript files-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/assets/js/jquery-1.11.0.min.js"><\/script>')</script>
+ 
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/jquery.sticky.js"></script>
     <script src="/assets/js/jquery.scrollTo.min.js"></script>
     <script src="/assets/js/jquery.cookie.js"></script>
+
     <script src="/assets/js/front.js"></script>
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
    <!-- <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -409,7 +416,7 @@
 
 
     <script src='/assets/js/fokus.min.js'></script>
-
+    <script src="/assets/js/mail.js"></script>
   </body>
 </html>
 
