@@ -854,18 +854,18 @@ hr {
   border-radius: 0;
 }
 .btn-primary {
-  color: #6b2a6b;
+  color:#333333;
   background-color: #ffffff;
-  border-color: #6b2a6b;
+  border-color: #333333;;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #6b2a6b;
+  color: #333333;
   background-color: #ebebeb;
-  border-color: #6b2a6b;
+  border-color: #333333;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -892,13 +892,13 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-primary .badge {
   color: #ffffff;
-  background-color: #6b2a6b;
+  background-color: #333333;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-  background: #6b2a6b;
+  background: #333333;
   color: #ffffff;
 }
 .btn-lg {
