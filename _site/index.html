@@ -350,7 +350,11 @@
             <h4 class="headingText">Entre em contato com a gente!</h4>    
             <div class="row">
               <div class="col-md-6" style="width:100%">
-                <form id="contact-form">
+
+
+              
+              <div id="contact-form-holder" class="dark">
+                <form role="form" id="contato-form">
                   <div class="controls">
                     <div class="row">
                       <div class="col-sm-6">
@@ -375,12 +379,19 @@
                       <textarea rows="4" name="message" id="message" placeholder="Digite sua menssagem" required="required" class="form-control"></textarea>
                     </div>
                     <div class="text-center">
-                      <button id="btnEnviar" value="Enviar Menssagem" class="btn btn-primary btn-block">Enivar Mensagem</button>
+              
+                    <button id="btnEnviar" value="Enviar Menssagem" data-loading-text="Enviando..." class="btn btn-primary btn-block">Enivar Mensagem</button>
                     </div>
 
                 
                   </div>
                 </form>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div id="alert" class="alert alert-danger" role="alert"></div>
+                 </div>
+                 </div>
+                </div>
 
 
 
