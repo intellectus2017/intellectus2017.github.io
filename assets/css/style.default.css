@@ -393,6 +393,21 @@ COPYRIGHT
 
   .img-logo{
     width: 100%;
+    margin-left: -21%;
+  }
+
+  .intro .icon{
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    margin-left: -65px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: solid 2px #00a5a8;
+    border-radius: 20px;
+    z-index: 3;
+    color: #00a5a8;
   }
 }
 @media (min-width: 1200px) {
@@ -402,7 +417,7 @@ COPYRIGHT
 
 
   .img-logo{
-    width: 100%;
+    width: 80%;
   }
 }
 @media (max-width: 991px) {
