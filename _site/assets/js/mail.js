@@ -51,7 +51,7 @@ $(document).ready(function (){
            btnEnviar.button('reset');
       },
       complete: function() {
-      form.reset();
+     
     
 
       }
