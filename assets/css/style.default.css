@@ -147,13 +147,13 @@ INTRO
   }
 }
 .intro .icon {
-  position: absolute;
-  bottom: 90px;
-  left: 50%;
-  margin-left: -20px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+      position: absolute;
+    bottom: 90px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
   border: solid 2px #00a5a8;
   border-radius: 20px;
   z-index: 3;
@@ -210,7 +210,7 @@ LOGO
 */
 
 .logo{
-  width: 100%;
+  width: 70%;
 
 }
 /*
